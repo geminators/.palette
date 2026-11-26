@@ -2,7 +2,7 @@
   A custom .palette file format for art applications
 
 # Setup
-  Include 'const palette = require("./palette")' at the top of your file
+  Include 'const palette = require("./palette.js")' at the top of your file 
 
 # How to use
   Run palette.parsePalette(file)  
