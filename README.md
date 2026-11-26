@@ -1,2 +1,15 @@
 # .palette
-A custom .palette file format for art applications
+  A custom .palette file format for art applications
+
+# Setup
+  Include 'const palette = require("./palette")' at the top of your file
+
+# How to use
+  Run palette.parsePalette(file)
+  The function parsePallete returns an array of objects, for example:
+  [
+    {color: '#000000', hoverText: 'Pure Black'},
+    {color: '#FFFFFF', hoverText: 'Pure White'}
+  ]
+# Made to be used in art applications
+  
