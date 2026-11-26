@@ -8,8 +8,8 @@
   Run palette.parsePalette(file)  
   The function parsePallete returns an array of objects, for example:  
   [  
-    {color: '#000000', hoverText: 'Pure Black'},  
-    {color: '#FFFFFF', hoverText: 'Pure White'}  
+    {color: '#000000', Title: 'Pure Black'},  
+    {color: '#FFFFFF', Title: 'Pure White'}  
   ]  
 # Made to be used in art applications
   
