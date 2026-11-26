@@ -29,16 +29,16 @@ function parsePalette(filename) {
             let parts = cur.split("//")[0].split(";")
           
             let color = parts[0].trim()
-            let hoverText = parts[1].trim().match(/(?<=\<).+?(?=\>)/g)
-            if (Array.isArray(hoverText)){
-                hoverText = hoverText.join("")
+            let Title = parts[1].trim().match(/(?<=\<).+?(?=\>)/g)
+            if (Array.isArray(Title)){
+                Title = Title.join("")
             //    hover = hoverText
             }
-            if (hoverText === null){
-                hoverText = color
+            if (Title === null){
+                Title = color
                 
             }
-            let object = {color, hoverText}
+            let object = {color, Title}
           //  console.log(object)
             returnArr.push(object)
         }
